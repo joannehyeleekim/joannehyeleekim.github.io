@@ -489,6 +489,10 @@ a, a:active, a:visited {
   color: inherit;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 /* ============================== */
 /* UI Code                        */
 /*================================*/
@@ -539,7 +543,7 @@ h2 {
 .f_150 {
   font-size: 150%;
   font-weight: 100;
-  line-height: 170%;
+  line-height: 200%;
   text-align: justify;
 }
 .f_180 {
