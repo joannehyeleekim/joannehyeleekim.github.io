@@ -55,4 +55,8 @@ $(document).ready(function(){
 			$('.responsive_bar').addClass('responsive');
 		}
 	});
+
+	$('img').bind('contextmenu', function(e) {
+    	return false;
+	}); 
 });
